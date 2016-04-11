@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <img alt="" />
+  </body>
+  <script type="text/javascript">
+    var img = document.querySelector('img');
+    img.src = (Math.ceil(Math.random()*20)) + '.jpg';
+    img.onclick = function() { img.src = (Math.ceil(Math.random()*20)) + '.jpg'; };
+  </script>
+  <script type="text/javascript" src="captcha-reader.js">
+  </script>
+</html>
